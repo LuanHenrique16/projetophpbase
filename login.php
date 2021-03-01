@@ -1,7 +1,7 @@
 <?php
 
 // Conexão com banco de dados 
-include'connect.php';
+include 'connect.php';
 
 if(isset($_POST['sub'])){
     $u=$_POST['user'];
